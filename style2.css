@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    top: 0px;       
+    margin: 0px;
+    padding: 0px;
+}
+
+.abc:hover{
+    color: violet;
+    transition: 1s ;
+    width: 100%;
+}
+
+
+.first{
+background-color: black;
+ width: 100%;
+ height: 50px;
+ font-size: 20px;
+ align-items: center;
+ text-decoration: none;
+ list-style: none;
+position: fixed;
+margin-bottom: 100px;
+}
+
+.first a {
+
+text-decoration: none;
+
+}
+
+
+
+.about{
+   color: violet;
+  
+
+
+}
+.rigth  {
+ width: 50%;
+ height: 500px;
+ font-size: 20px;
+ border:solid;
+ justify-content: center;
+ align-items: center;
+}
+.left{
+     width: 50%;
+     height: 500px;
+     font-size: 20px;
+    }
+.second {
+    margin-top: 20px;
+    display: flex;
+    background-color: dimgrey;
+    transition: 1s;
+}
+  
+#parag{
+    margin-left: 35px;
+    margin-top: 40px;
+    
+}
+
+
+
+.white:hover{
+    transition: 1s;
+    transform:scale(1.1,1.1);
+}
+
+    /* justify-content: space-around; */
+   
+.img:hover{
+    transition: 1s;
+    transform:scale(1.1,1.1);
+}
+#computer:hover{
+    transition: 1s;
+    transform:scale(1.1,1.1);
+}
+.third{
+    width: 100%;
+    height: 1000px;
+    background-image: url("https://ak3.picdn.net/shutterstock/videos/1024307063/thumb/3.jpg");
+    
+
+
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+h2,a,.bt{
+    color:white ;
+    
+    
+}
+
+.bt{
+    background-color: violet;
+    
+}
+
+.bt:hover{
+background-color: white;
+transition: 1s;
+color: violet;
+}
+
+h2:hover{
+    color: red;
+    transition: 1s;
+}
+.righta{
+    height: max-content;
+    border: inset;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 0.5;
+}
+
+.rightocontaint{
+        height: max-content;
+        
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px; 
+}
+/*pourquoi le decalage ne marche pas*/
+
+.lefta{
+    height: max-content;
+    border: inset;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 0.5;
+}
+
+
+
+.leftocontaint
+{
+    height: max-content;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.centera{
+    height: max-content;
+    border: inset;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 0.5;
+    
+}
+
+.centerocontaint{
+    height: max-content;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+
+/*pourquoi on peut pas regrouper lefta righta et centera en size  en margin mais peut en hover transition */
+.globerotate:hover
+{
+ transform: 180 px ;
+ -webkit-transform: rotate(180deg);
+ transition: 1s;
+ 
+}
+    
+.size{
+    width: 200px;
+
+}
+.size:hover{
+    transition: 1s;
+    transform:scale(1.1,1.1);
+}
+
+.centera:hover{
+    transition: 1s;
+    transform:scale(1.1,1.1);
+}
+
+.lefta:hover{
+    transition: 1s;
+    transform:scale(1.1,1.1);
+}
+
+div{
+    background-color: darkslategray;
+}
+.secondrigth{
+    background-color: dimgrey;   
+    padding-top: 100px;
+    padding-left: 100px;
+}
+#about{
+    transition: 1s ;/* 3lach tahbat immediately*/
+}
+
+
+.forth{
+     
+    width: 100%;
+     height: 500px;
+     background-size: cover;
+     display: flex;
+     justify-content: space-around;
+     padding-top: 200px;
+    
+    }
+
+.fifth{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+
+
+}
+
+
+
+ 
+
+.white{
+    color: white;
+    font-size: px;
+   
+}
+
+.form{
+    margin-left:  500px;
+    margin-right: 500px;
+}
+
+.fifth{
+  width: 100%;
+    background-color: dimgrey;
+    
+}
+#bigger{
+    height: 100%;
+    font-stretch: normal;
+    padding-bottom: 200px;
+    padding-top: 10px;
+}
+
+.red{
+    color: firebrick;
+    padding: top 10px;;
+}
+.cercle{
+    border-radius: 20px ; 
+    background-color:darksalmon  ;
+    width: 300px;
+    height: 50px;
+    
+}
+.finish{
+ background: red;
+ border-radius: 20px ;
+ height: 50px;
+ width: 200px;   
+}
+.finisho{
+    padding-left: 50px;
+}
+
+.cer{
+    border-radius: 20px ;
+}
+
+
+
+
+
+
+.item1 { grid-area: header;  }
+.item2 { grid-area: menu;}
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+    grid-gap: 10px;
+  
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  
+
+}
+
+.grid-container div img {
+width: 100%;
+height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* area ?*/
+/*widenth input*/
+ /* tag t5alef star bark gbalha */
